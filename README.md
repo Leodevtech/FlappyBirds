@@ -3,6 +3,8 @@ Remake of the Original FlappyBird Using **JS** &amp; **HTML Canvas**
 [Play It !]
 https://leodevtech.github.io/FlappyBirds/ 
 
+PRESS ARROW UP OR Z KEY FOR START
+
 
 
 <img width="318" height="473" alt="Capture d&#39;écran 2025-11-27 150937" src="https://github.com/user-attachments/assets/9568d27e-8690-4544-a68f-936652d70bec" />
