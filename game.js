@@ -3,7 +3,7 @@ const scrn = document.getElementById("canvas");
 const sctx = scrn.getContext("2d");
 scrn.tabIndex = 1;
 scrn.addEventListener("click", () => {
-  switch (stae.curr) {
+  switch (state.curr) {
     case state.getReady:
       state.curr = state.Play;
       SFX.start.play();
@@ -335,3 +335,4 @@ function draw() {
 }
 
 setInterval(gameLoop, 20);
+
