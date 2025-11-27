@@ -15,7 +15,7 @@ scrn.addEventListener("click", () => {
       state.curr = state.getReady;
       bird.speed = 0;
       bird.y = 100;
-      pipeline.pipes = [];
+      pipe.pipes = [];
       UI.score.curr = 0;
       SFX.played = false;
       break;
@@ -335,4 +335,5 @@ function draw() {
 }
 
 setInterval(gameLoop, 20);
+
 
